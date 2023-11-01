@@ -43,7 +43,7 @@ nav{
 main{
     padding: 1rem;
 }
-main>img{
+main>img{/*Delete > it is preventing the images inside the sections from getting these css properties*/
     max-width: 100%;
     margin: 0.5rem 0; 
 }
