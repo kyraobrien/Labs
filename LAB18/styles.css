@@ -1,0 +1,138 @@
+body{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    background-color: #fff0df;
+}
+header h1{
+    text-align: center;
+}
+header nav a{
+    background-color:#f37755;
+    border-radius: 15%;
+    padding: .5rem;
+    margin: 1rem;
+    text-align: center;
+    color: #fff0df;
+}
+#gnocchi{
+    background-color: #fecc8d;
+    padding: 1rem;
+    width: 30%;
+    border-radius: 15%;
+}
+#gnocchi>img{
+    border-radius: 15%;
+    width: 90%;
+    align-items: center;
+}
+#italyguide{
+    background-color: #fecc8d;
+    width: 30%;
+    padding: 1rem;
+    border-radius: 15%;
+}
+#italyguide>img{
+    width: 45%;
+    border-radius: 15%;
+    width: 90%;
+    align-items: center;
+}
+#goals{
+    background-color: #fecc8d;
+    width: 30%;
+    padding: 1rem;
+    border-radius: 15%;  
+}
+#goals>img{
+    width: 30%;
+    border-radius: 15%;
+    width: 90%;
+    align-items: center;
+}
+
+.div{
+    display: inline-block;
+    vertical-align: top;
+}
+.div h3{
+    color:#f05429 ;
+    padding-left: 1rem;
+}
+.div p{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.div a{
+    background-color: #f37755;
+    border-radius: 15%;
+    color:  #fff0df;
+}
+.recipeimg{
+    width: 50%;
+    padding: 3rem;
+}
+.recipespecs{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color:#fecc8d;
+    width: 70%;
+    padding: 3rem;
+    border-radius: 15%;
+}
+
+.preptime { grid-area: 1 / 1 / 2 / 2; } 
+.preptime1 { grid-area: 2 / 1 / 3 / 2; } 
+.cooktime { grid-area: 1 / 2 / 2 / 3; } 
+.cooktime1 { grid-area: 2 / 2 / 3 / 3; } 
+.totaltime { grid-area: 1 / 3 / 2 / 4; } 
+.totaltime1{ grid-area: 2 / 3 / 3 / 4; } 
+.servings { grid-area: 1 / 4 / 2 / 5; } 
+.servings1 { grid-area: 2 / 4 / 3 / 5; } 
+.cals { grid-area: 1 / 5 / 2 / 6; } 
+.cals1 { grid-area: 2 / 5 / 3 / 6; } 
+
+
+.instructions{
+    background-color:#fecc8d;
+    width: 70%;
+    padding: 3rem;
+    border-radius: 15%;
+}
+.ingredients{
+    background-color:#fecc8d;
+    width: 70%;
+    padding: 3rem;
+    border-radius: 15%;
+}
+.totalrecipe h2{
+    color: #f37755;
+}
+.venicefullpg img{
+    width: 30%;
+}
+.venicefullpg{
+    background-color: #fecc8d;
+    padding: 3rem;
+    width: 80%;
+    border-radius: 15%;
+}
+.switz img{
+    width: 30%;
+}
+
+.switz{
+    background-color: #fecc8d;
+    padding: 3rem;
+    width: 80%;
+    border-radius: 15%;
+}
+.about img{
+    width: 40%;
+}
+.about{
+    background-color: #fecc8d;
+    padding: 3rem;
+    width: 80%;
+    border-radius: 15%;
+}
