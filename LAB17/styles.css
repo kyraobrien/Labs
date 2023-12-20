@@ -172,12 +172,15 @@ footer{
         text-decoration: underline;
     }
     .social{
+        /*padding-right:2rem;*/
         padding: right 2rem;
     }
     h1{
+        /*margin-left:-16rem;*/
         margin: left -16rem;
     }
     .call-to-action{
+        /*Add space on both sides of minus sign*/
         padding: 20rem calc((100%-900px)/2) 5rem;
     }
     .call-to-action h2{
