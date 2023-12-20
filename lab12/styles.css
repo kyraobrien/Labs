@@ -34,6 +34,7 @@ form{
     max-width:calc(90% - 4rem);
     margin: 1rem auto;
 }
+/*Format for these selectors should input[type=text], input[type=email], etc...*/
 text, email, date, number, color{
     font-size: 1.25rem;
     width: calc(100% - 1rem);
@@ -41,29 +42,35 @@ text, email, date, number, color{
     padding: .5rem;
     border-radius: .25rem;
 }
+/*Format for these selectors should input[type=text], input[type=email], etc...*/
 color{
     width: 4rem;
     height: 4rem;
     border-radius: 2rem;
 }
+/*Format for these selectors should input:focus[type=text], input:focus[type=email], etc...*/
 Focus:text email, date, number, color{
     background-color:black;
     color: white;
     outline: none;
 }
+/*Format for these selectors should input[type=text], input[type=email], etc...*/
 Reset, Submit{
     font-family: Eater, cursive;
     font-size: 1.5rem;
     padding: 1rem;
 }
+/*Format for these selectors should input[type=text], input[type=email], etc...*/
 Submit{
     background-color: yellowgreen;
     color: yellowgreen;
 }
+/*Format for these selectors should input:hover[type=text]*/
 Hover:sumbit{
     background-color: black;
     color: yellowgreen;
 }
+/*Format for these selectors should input:hover[type=text]*/
 Hover:reset{
     color: black;
     background-color: red;
